@@ -60,7 +60,7 @@ def main():
     p=argparse.ArgumentParser(); p.add_argument("--funds",default="data/funds.csv"); p.add_argument("--cutoff",default="2025-07-31"); p.add_argument("--rollover-rate",type=float,default=0); p.add_argument("--achievement-rate",type=float,default=1); p.add_argument("--spread-sales",action="store_true"); p.add_argument("--output",default="output")
     a=p.parse_args(); funds=load_funds(a.funds); rows=simulate(funds,date.fromisoformat(a.cutoff),a.rollover_rate,a.achievement_rate,a.spread_sales); out=Path(a.output); out.mkdir(parents=True,exist_ok=True)
     with open(out/"monthly_cashflow.csv","w",encoding="utf-8",newline="") as f:
-        w=csv.DictWriter(f,fieldnames=rows[0].keys() if rows else ["month"]); w.writeheader(); w.writerows(rows)
+        w=csv.DictWriter(f,fieldnames=rows[0].keys() if rows else ["month"],lineterminator="\n"); w.writeheader(); w.writerows(rows)
     payload={"parameters":{"cutoff":a.cutoff,"rollover_rate":a.rollover_rate,"achievement_rate":a.achievement_rate,"spread_sales":a.spread_sales},"summary":summarize(rows,funds),"monthly":rows}
     (out/"simulation.json").write_text(json.dumps(payload,ensure_ascii=False,indent=2),encoding="utf-8")
     print(json.dumps(payload["summary"],ensure_ascii=False))
