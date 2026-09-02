@@ -1,0 +1,170 @@
+{
+  "parameters": {
+    "cutoff": "2025-07-31",
+    "rollover_rate": 0,
+    "achievement_rate": 1,
+    "spread_sales": false
+  },
+  "summary": {
+    "fund_count": 1,
+    "confirmed_funds": 0,
+    "cumulative_investment": 15368000000,
+    "cumulative_distribution": 1344700005,
+    "cumulative_redemption": 0,
+    "ending_cash": 14023300000,
+    "peak_cash": 15278353333,
+    "first_negative_month": null
+  },
+  "monthly": [
+    {
+      "month": "2024-05-01",
+      "new_investment": 15368000000,
+      "distribution": 89646667,
+      "redemption": 0,
+      "cash_balance": 15278353333,
+      "required_new_money": 89646667,
+      "outstanding_principal": 15368000000,
+      "psr": 171.429
+    },
+    {
+      "month": "2024-06-01",
+      "new_investment": 0,
+      "distribution": 89646667,
+      "redemption": 0,
+      "cash_balance": 15188706667,
+      "required_new_money": 0,
+      "outstanding_principal": 15368000000,
+      "psr": 0.0
+    },
+    {
+      "month": "2024-07-01",
+      "new_investment": 0,
+      "distribution": 89646667,
+      "redemption": 0,
+      "cash_balance": 15099060000,
+      "required_new_money": 0,
+      "outstanding_principal": 15368000000,
+      "psr": 0.0
+    },
+    {
+      "month": "2024-08-01",
+      "new_investment": 0,
+      "distribution": 89646667,
+      "redemption": 0,
+      "cash_balance": 15009413333,
+      "required_new_money": 0,
+      "outstanding_principal": 15368000000,
+      "psr": 0.0
+    },
+    {
+      "month": "2024-09-01",
+      "new_investment": 0,
+      "distribution": 89646667,
+      "redemption": 0,
+      "cash_balance": 14919766667,
+      "required_new_money": 0,
+      "outstanding_principal": 15368000000,
+      "psr": 0.0
+    },
+    {
+      "month": "2024-10-01",
+      "new_investment": 0,
+      "distribution": 89646667,
+      "redemption": 0,
+      "cash_balance": 14830120000,
+      "required_new_money": 0,
+      "outstanding_principal": 15368000000,
+      "psr": 0.0
+    },
+    {
+      "month": "2024-11-01",
+      "new_investment": 0,
+      "distribution": 89646667,
+      "redemption": 0,
+      "cash_balance": 14740473333,
+      "required_new_money": 0,
+      "outstanding_principal": 15368000000,
+      "psr": 0.0
+    },
+    {
+      "month": "2024-12-01",
+      "new_investment": 0,
+      "distribution": 89646667,
+      "redemption": 0,
+      "cash_balance": 14650826667,
+      "required_new_money": 0,
+      "outstanding_principal": 15368000000,
+      "psr": 0.0
+    },
+    {
+      "month": "2025-01-01",
+      "new_investment": 0,
+      "distribution": 89646667,
+      "redemption": 0,
+      "cash_balance": 14561180000,
+      "required_new_money": 0,
+      "outstanding_principal": 15368000000,
+      "psr": 0.0
+    },
+    {
+      "month": "2025-02-01",
+      "new_investment": 0,
+      "distribution": 89646667,
+      "redemption": 0,
+      "cash_balance": 14471533333,
+      "required_new_money": 0,
+      "outstanding_principal": 15368000000,
+      "psr": 0.0
+    },
+    {
+      "month": "2025-03-01",
+      "new_investment": 0,
+      "distribution": 89646667,
+      "redemption": 0,
+      "cash_balance": 14381886667,
+      "required_new_money": 0,
+      "outstanding_principal": 15368000000,
+      "psr": 0.0
+    },
+    {
+      "month": "2025-04-01",
+      "new_investment": 0,
+      "distribution": 89646667,
+      "redemption": 0,
+      "cash_balance": 14292240000,
+      "required_new_money": 0,
+      "outstanding_principal": 15368000000,
+      "psr": 0.0
+    },
+    {
+      "month": "2025-05-01",
+      "new_investment": 0,
+      "distribution": 89646667,
+      "redemption": 0,
+      "cash_balance": 14202593333,
+      "required_new_money": 0,
+      "outstanding_principal": 15368000000,
+      "psr": 0.0
+    },
+    {
+      "month": "2025-06-01",
+      "new_investment": 0,
+      "distribution": 89646667,
+      "redemption": 0,
+      "cash_balance": 14112946667,
+      "required_new_money": 0,
+      "outstanding_principal": 15368000000,
+      "psr": 0.0
+    },
+    {
+      "month": "2025-07-01",
+      "new_investment": 0,
+      "distribution": 89646667,
+      "redemption": 0,
+      "cash_balance": 14023300000,
+      "required_new_money": 0,
+      "outstanding_principal": 15368000000,
+      "psr": 0.0
+    }
+  ]
+}

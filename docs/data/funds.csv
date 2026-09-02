@@ -1,0 +1,2 @@
+fund_name,sales_start,operation_start,operation_end,actual_end,target_amount,subscribed_amount,annual_yield,distribution_frequency,redemption_status,source_url,source_date,confidence,notes
+成田18号,,2024-05-01,2029-04-30,,15368000000,15368000000,0.07,monthly,運用中,,2026-09-02,estimated,"idea.mdに記載されたフォーマット例。一次資料の再確認前のため推定値として収録"
