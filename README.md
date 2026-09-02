@@ -15,6 +15,14 @@ python -m src.simulator --funds data/funds.csv --cutoff 2025-07-31 --rollover-ra
 python -m unittest discover -v
 ```
 
+月次出力には、未償還元本、成田／その他の内訳、個別利回りによる年間・月間分配負担、仮想キャッシュの元本カバレッジ率を含みます。JSON 出力には年別の予定償還＋分配負担も収録します。新規募集停止シナリオは停止月以降に運用開始するファンドを未成立とするモデルです。
+
+```bash
+python -m src.simulator --funds data/funds.csv --cutoff 2029-04-30 --funding-stop-date 2024-06-01
+```
+
+ダッシュボードでも募集停止月を任意に指定し、資金ショートまでの月数と停止時点の負担を確認できます。
+
 公式ページから台帳を再取得する場合（取得先への負荷を避けるため既定でリクエスト間隔を設けています）:
 
 ```bash
